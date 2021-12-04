@@ -1,6 +1,6 @@
-import React from 'react';
-import './index.scss';
-import LunaPict from '../../assets/luna.jpg';
+import React from "react";
+import "./index.scss";
+import LunaPict from "../../assets/luna.jpg";
 
 export default function Community() {
   return <div id="community">
@@ -8,8 +8,8 @@ export default function Community() {
       <h1>Community</h1>
       <div className="luna-pict" style={{
         backgroundImage: `url(${LunaPict})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}>
       </div>
       <div className="luna-text">
@@ -27,11 +27,11 @@ export default function Community() {
         </p>
       </div>
       <div className="icons">
-        <a href="https://www.reddit.com/r/LunaToken"><img src={process.env.PUBLIC_URL + '/icons/reddit.png'}></img></a>
-        <a href="https://discord.gg/ncCnbdjNfM"><img src={process.env.PUBLIC_URL + '/icons/discord.png'}></img></a>
-        <a href="mailto:lunadogcoin@gmail.com"><img src={process.env.PUBLIC_URL + '/icons/gmail.png'}></img></a>
-        <a href="https://app.ergodex.io/swap"><img src={process.env.PUBLIC_URL + '/ergodex.png'}></img></a>
-        <a href="https://t.me/lunadogcoin"><img src={process.env.PUBLIC_URL + '/icons/telegram.png'}></img></a>
+        <a href="https://www.reddit.com/r/LunaToken"><img src={process.env.PUBLIC_URL + "/icons/reddit.png"}></img></a>
+        <a href="https://discord.gg/ncCnbdjNfM"><img src={process.env.PUBLIC_URL + "/icons/discord.png"}></img></a>
+        <a href="mailto:lunadogcoin@gmail.com"><img src={process.env.PUBLIC_URL + "/icons/gmail.png"}></img></a>
+        <a href="https://app.ergodex.io/swap"><img src={process.env.PUBLIC_URL + "/ergodex.png"}></img></a>
+        <a href="https://t.me/lunadogcoin"><img src={process.env.PUBLIC_URL + "/icons/telegram.png"}></img></a>
       </div>
     </div>
   </div>

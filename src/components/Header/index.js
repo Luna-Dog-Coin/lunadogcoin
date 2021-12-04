@@ -1,7 +1,7 @@
-import React from 'react';
-import './index.scss';
-import Logo from '../../assets/logo.png';
-import Whitepaper from '../../assets/whitepaper.pdf'
+import React from "react";
+import "./index.scss";
+import Logo from "../../assets/logo.png";
+import Whitepaper from "../../assets/whitepaper.pdf"
 
 export default function Header() {
 
@@ -24,12 +24,12 @@ export default function Header() {
 }
 
 const resetLogo = () => {
-  const logo = document.getElementById('logo')
+  const logo = document.getElementById("logo")
   logo.style.transform = `rotateX(0deg) rotateY(0deg)`
 }
 
 const followCursor = (e) => {
-  const logo = document.getElementById('logo')
+  const logo = document.getElementById("logo")
   const logoPos = logo.getBoundingClientRect()
   const logoPosX = logoPos.x + logo.clientWidth / 2
   const logoPosY = logoPos.y + logo.clientWidth / 2

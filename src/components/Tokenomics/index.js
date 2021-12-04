@@ -1,8 +1,8 @@
-import React, { useEffect, useLayoutEffect } from 'react';
-import './index.scss';
-import data from '../../data/data.js';
-import { Chart as ChartJS, ArcElement, Tooltip, Legend, Title } from 'chart.js';
-import { Pie } from 'react-chartjs-2';
+import React, { useEffect, useLayoutEffect } from "react";
+import "./index.scss";
+import data from "../../data/data.js";
+import { Chart as ChartJS, ArcElement, Tooltip, Legend, Title } from "chart.js";
+import { Pie } from "react-chartjs-2";
 
 ChartJS.register(ArcElement, Tooltip, Legend, Title);
 
@@ -39,7 +39,7 @@ export default function Tokenomics() {
           <p>
             Around 1/4 of the total supply has been airdropped 
             to early adopters and will be provided as liquidity 
-            on exchanges. The community's involvement is intended 
+            on exchanges. The community"s involvement is intended 
             to ensure that no one person will have the ability 
             to manipulate the liquidity pool.
           </p>

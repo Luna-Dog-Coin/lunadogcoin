@@ -1,8 +1,7 @@
-import './App.scss';
-import Header from './components/Header';
-import Tokenomics from './components/Tokenomics';
-import Community from './components/Community';
-import Roadmap from './components/Roadmap';
+import Header from "./components/Header";
+import Tokenomics from "./components/Tokenomics";
+import Community from "./components/Community";
+import Roadmap from "./components/Roadmap";
 
 function App() {
   return (
