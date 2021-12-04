@@ -4,6 +4,7 @@ body, html {
   width: 100%;
   font-family: 'Heebo', sans-serif;
   font-size: 1.1em;
+  box-sizing: border-box;
 }
 
 #root {
@@ -11,12 +12,19 @@ body, html {
 }
 
 html {
-  background-image: linear-gradient(18deg, #f1f1f1 40%, #ac1ea2, #cfa048);
+  background-image: linear-gradient(
+    18deg,
+    white 5%,
+    #ffda8a 20%,
+    rgb(250, 179, 235) 60%,
+    #ac1ea2,
+    #cfa048);
 }
 
 * {
   scroll-behavior: smooth;
   margin: 0;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -25,4 +33,27 @@ h1 {
   background-image: linear-gradient(-45deg,  #42174b 40%, #4F7CAC);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.container {
+  padding: 100px 50px;
+}
+
+@media (max-width: 1200px) {
+  html {
+    background-image: linear-gradient(
+      18deg,
+      white 5%,
+      #ffda8a 20%,
+      rgb(250, 179, 235) 60%,
+      #ac1ea2, 
+      #cfa048)
+    ;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  .container {
+    padding: 20px;
+  }
 }

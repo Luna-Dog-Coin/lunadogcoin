@@ -7,7 +7,6 @@
   display: flex;
   justify-content: center;
   .container {
-    padding: 100px 10px;
     width: 100%;
     max-width: 1200px;
     display: flex;
@@ -49,6 +48,44 @@
       .right {
         width: 50%;
         padding: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  #tokenomics {
+    min-height: 100vh;
+    .container {
+      box-sizing: border-box;
+      p {
+        font-size: 1rem;
+      }
+      .text-container {
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        a {
+          color: inherit;
+          text-decoration: underline;
+        }
+        .left {
+          box-sizing: border-box;
+          padding: 0;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          max-width: 350px;
+        }
+        .right {
+          margin-top: 30px;
+          text-align: justify;
+          width: 100%;
+          padding: 0;
+        }
       }
     }
   }
