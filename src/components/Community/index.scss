@@ -1,0 +1,61 @@
+@import "../../var.scss";
+
+#community {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .container {
+    padding: 100px 50px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+      justify-self: center;
+      margin-bottom: 30px;
+      color: #42174b;
+      background-image: linear-gradient(-45deg,  #42174b 40%, #4F7CAC);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p {
+      margin-bottom: 20px;
+      line-height: 1.5em;
+    }
+    .luna-pict {
+      width: 200px;
+      height: 200px;
+      border-radius: 100%;
+      background-repeat: no-repeat;
+      box-shadow: 0px 20px 35px -10px #14080e77;
+      transform: translateY(0px);
+      animation: luna .5s cubic-bezier(.22,.87,.96,.98) infinite alternate-reverse;
+      box-sizing: border-box;
+      border: 10px solid $black;
+      margin-bottom: 30px;
+    }
+    .icons {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      img {
+        width: 50px;
+        margin: 0 10px;
+        transition: .25s;
+        &:hover {
+          transform: scale(1.1) rotateZ(360deg);
+        }
+      }
+    }
+  }
+}
+
+@keyframes luna {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
