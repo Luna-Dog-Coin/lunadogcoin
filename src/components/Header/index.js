@@ -33,7 +33,7 @@ const followCursor = (e) => {
   const logoPos = logo.getBoundingClientRect()
   const logoPosX = logoPos.x + logo.clientWidth / 2
   const logoPosY = logoPos.y + logo.clientWidth / 2
-  const maxRotate = 10
+  const maxRotate = 15
 
   let cursorX = (e.clientX)
   let cursorY = (e.clientY)
