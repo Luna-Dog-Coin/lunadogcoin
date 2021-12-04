@@ -24,7 +24,7 @@ export default function Tokenomics() {
       <h1>Tokenomics</h1>
       <div className="text-container">
         <div className="left">
-          <div className="chart-title">Token Distribution</div>
+          <div className="chart-title">Token Distribution (%)</div>
           <Pie
             data={data.tokenomics}
             options={options}

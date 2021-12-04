@@ -29,7 +29,6 @@ export default function Community() {
       <div className="icons">
         <a href="https://www.reddit.com/r/LunaToken"><img src={process.env.PUBLIC_URL + '/icons/reddit.png'}></img></a>
         <a href="https://discord.gg/ncCnbdjNfM"><img src={process.env.PUBLIC_URL + '/icons/discord.png'}></img></a>
-        <a href="https://www.reddit.com/user/123uga"><img src={process.env.PUBLIC_URL + '/icons/123uga.png'}></img></a>
         <a href="mailto:lunadogcoin@gmail.com"><img src={process.env.PUBLIC_URL + '/icons/gmail.png'}></img></a>
         <a href="https://app.ergodex.io/swap"><img src={process.env.PUBLIC_URL + '/ergodex.png'}></img></a>
         <a href="https://t.me/lunadogcoin"><img src={process.env.PUBLIC_URL + '/icons/telegram.png'}></img></a>
