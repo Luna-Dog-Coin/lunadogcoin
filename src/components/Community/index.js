@@ -1,17 +1,23 @@
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
 import "./index.scss";
-import { lunaBlockchainInfoUrl } from "../../data/data.js";
+import { lunaBlockchainInfoUrl, lunaLpInfoUrl } from "../../data/data.js";
 
 export default function Community() {
 
   const [hodlers, setHodlers] = useState(0);
+  const [lpProviders, setLpProviders] = useState(0);
 
   useEffect(() => {
     axios.get(lunaBlockchainInfoUrl)
       .then(data => data.data)
       .then(data => {
         setHodlers(data.total)
+      })
+    axios.get(lunaLpInfoUrl)
+      .then(data => data.data)
+      .then(data => {
+        setLpProviders(data.total)
       })
   }, [])
 
@@ -24,9 +30,13 @@ export default function Community() {
         backgroundPosition: "center",
       }}>
       </div>
-      <div className="hodlers-count">
+      <div className="count">
         <h2>Hodlers Count</h2>
         <h1>{ hodlers }</h1>
+      </div>
+      <div className="count">
+        <h2>Liquidity Providers Count</h2>
+        <h1>{ lpProviders }</h1>
       </div>
       <div className="luna-text">
         <p>
