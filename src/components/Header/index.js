@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.scss";
 import Logo from "../../assets/logo.png";
-import Whitepaper from "../../assets/whitepaper.pdf"
+import Whitepaper from "../../assets/whitepaper.pdf";
 
 export default function Header() {
 

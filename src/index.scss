@@ -1,10 +1,14 @@
-body, html {
+* {
+  scroll-behavior: smooth;
   margin: 0;
+  box-sizing: border-box;
+}
+
+body, html {
   padding: 0;
   width: 100%;
   font-family: 'Heebo', sans-serif;
   font-size: 1.1em;
-  box-sizing: border-box;
 }
 
 #root {
@@ -19,12 +23,6 @@ html {
     rgb(250, 179, 235) 60%,
     #ac1ea2,
     #cfa048);
-}
-
-* {
-  scroll-behavior: smooth;
-  margin: 0;
-  box-sizing: border-box;
 }
 
 h1 {

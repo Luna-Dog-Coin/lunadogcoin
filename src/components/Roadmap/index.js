@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import "./index.scss";
 import data from "../../data/data.js";
-// import logo from "../../assets/ergo_logo.png";
 
 export default function Roadmap() {
 

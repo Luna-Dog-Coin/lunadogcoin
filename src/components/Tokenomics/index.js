@@ -1,8 +1,8 @@
-import React, { useEffect, useLayoutEffect } from "react";
-import "./index.scss";
-import data from "../../data/data.js";
+import React from "react";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend, Title } from "chart.js";
 import { Pie } from "react-chartjs-2";
+import "./index.scss";
+import data from "../../data/data.js";
 
 ChartJS.register(ArcElement, Tooltip, Legend, Title);
 

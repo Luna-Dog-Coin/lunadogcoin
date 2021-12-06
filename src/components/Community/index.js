@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
+import axios from 'axios';
 import "./index.scss";
 import LunaPict from "../../assets/luna.jpg";
 import { lunaBlockchainInfoUrl } from "../../data/data.js";
-import axios from 'axios';
 
 export default function Community() {
 
