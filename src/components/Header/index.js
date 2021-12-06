@@ -13,7 +13,7 @@ export default function Header() {
           <a href="#tokenomics"><button>Tokenomics</button></a>
           <a href="#roadmap"><button>Roadmap</button></a>
           <a href="#community"><button>Community</button></a>
-          <a href="https://app.ergodex.io/swap" target="_blank"><button>How to buy</button></a>
+          <a href="https://app.ergodex.io/swap" rel="noreferrer" target="_blank"><button>How to buy</button></a>
           <button onClick={openWhitepaper}>Whitepaper</button>
         </div>
       </div>

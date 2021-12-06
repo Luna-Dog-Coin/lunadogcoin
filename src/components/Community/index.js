@@ -43,12 +43,12 @@ export default function Community() {
         </p>
       </div>
       <div className="icons">
-        <a href="https://www.reddit.com/r/LunaToken"><img src={process.env.PUBLIC_URL + "/icons/reddit.png"}></img></a>
-        <a href="https://discord.gg/ncCnbdjNfM"><img src={process.env.PUBLIC_URL + "/icons/discord.png"}></img></a>
-        <a href="https://twitter.com/LunaDogCoin"><img src={process.env.PUBLIC_URL + "/icons/twitter.png"}></img></a>
-        <a href="mailto:lunadogcoin@gmail.com"><img src={process.env.PUBLIC_URL + "/icons/gmail.png"}></img></a>
-        <a href="https://app.ergodex.io/swap"><img src={process.env.PUBLIC_URL + "/icons/ergodex.png"}></img></a>
-        <a href="https://t.me/lunadogcoin"><img src={process.env.PUBLIC_URL + "/icons/telegram.png"}></img></a>
+        <a href="https://www.reddit.com/r/LunaToken"><img alt="reddit icon" src={process.env.PUBLIC_URL + "/icons/reddit.png"}></img></a>
+        <a href="https://discord.gg/ncCnbdjNfM"><img alt="discord icon" src={process.env.PUBLIC_URL + "/icons/discord.png"}></img></a>
+        <a href="https://twitter.com/LunaDogCoin"><img alt="twitter icon" src={process.env.PUBLIC_URL + "/icons/twitter.png"}></img></a>
+        <a href="mailto:lunadogcoin@gmail.com"><img alt="gmail icon" src={process.env.PUBLIC_URL + "/icons/gmail.png"}></img></a>
+        <a href="https://app.ergodex.io/swap"><img alt="ergodex icon" src={process.env.PUBLIC_URL + "/icons/ergodex.png"}></img></a>
+        <a href="https://t.me/lunadogcoin"><img alt="telegram icon" src={process.env.PUBLIC_URL + "/icons/telegram.png"}></img></a>
       </div>
     </div>
   </div>
