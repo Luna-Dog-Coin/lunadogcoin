@@ -1,14 +1,12 @@
 import React from "react";
 import "./index.scss";
-import Logo from "../../assets/logo.png";
-import Whitepaper from "../../assets/whitepaper.pdf";
 
 export default function Header() {
 
   return (
     <div className="full-container" id="header" onMouseMove={followCursor} onMouseOut={resetLogo}>
       <div className="logo-container">
-        <img id="logo" src={Logo} alt="logo of luna dog coin"></img>
+        <img id="logo" src={ process.env.PUBLIC_URL + "/icons/logo.png" } alt="logo of luna dog coin"></img>
         <span className="title">The Luna Dog Coin</span>
         <span className="subtitle">"Bring a little fun and levity to the often overly serious crypto world."</span>
         <div className="button-container abs">
@@ -53,5 +51,5 @@ const getDegree = (logoPos, mousePos, maxRotate) => {
 }
 
 const openWhitepaper = () => {
-  window.open(Whitepaper)
+  window.open(process.env.PUBLIC_URL + "/files/whitepaper.pdf")
 }

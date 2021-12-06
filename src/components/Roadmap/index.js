@@ -26,7 +26,7 @@ export default function Roadmap() {
               <div className="indicator"></div>
               { 
                 stage.image ? 
-                <img src={process.env.PUBLIC_URL + stage.image}/> : ""
+                <img src={process.env.PUBLIC_URL + "/icons" + stage.image}/> : ""
               } 
               <div className="roadmap-path-item-title">{stage.title}</div>
               <div className="roadmap-path-item-description">{stage.desc}</div>

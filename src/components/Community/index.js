@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
 import "./index.scss";
-import LunaPict from "../../assets/luna.jpg";
 import { lunaBlockchainInfoUrl } from "../../data/data.js";
 
 export default function Community() {
@@ -20,7 +19,7 @@ export default function Community() {
     <div className="container">
       <h1>Community</h1>
       <div className="luna-pict" style={{
-        backgroundImage: `url(${LunaPict})`,
+        backgroundImage: `url(${process.env.PUBLIC_URL + "/icons/luna.jpg"})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}>
@@ -48,7 +47,7 @@ export default function Community() {
         <a href="https://discord.gg/ncCnbdjNfM"><img src={process.env.PUBLIC_URL + "/icons/discord.png"}></img></a>
         <a href="https://twitter.com/LunaDogCoin"><img src={process.env.PUBLIC_URL + "/icons/twitter.png"}></img></a>
         <a href="mailto:lunadogcoin@gmail.com"><img src={process.env.PUBLIC_URL + "/icons/gmail.png"}></img></a>
-        <a href="https://app.ergodex.io/swap"><img src={process.env.PUBLIC_URL + "/ergodex.png"}></img></a>
+        <a href="https://app.ergodex.io/swap"><img src={process.env.PUBLIC_URL + "/icons/ergodex.png"}></img></a>
         <a href="https://t.me/lunadogcoin"><img src={process.env.PUBLIC_URL + "/icons/telegram.png"}></img></a>
       </div>
     </div>
