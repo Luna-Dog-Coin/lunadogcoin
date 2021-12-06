@@ -34,6 +34,11 @@
       border: 10px solid $black;
       margin-bottom: 50px;
     }
+    .hodlers-count {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
     .icons {
       margin-top: 20px;
       display: flex;
