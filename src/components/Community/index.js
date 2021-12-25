@@ -60,6 +60,7 @@ export default function Community() {
         <a href="https://app.ergodex.io/swap"><img alt="ergodex icon" src={process.env.PUBLIC_URL + "/icons/ergodex.png"}></img></a>
         <a href="https://t.me/lunadogcoin"><img alt="telegram icon" src={process.env.PUBLIC_URL + "/icons/telegram.png"}></img></a>
       </div>
+      <div className="policy-id">ID: 5a34d53ca483924b9a6aa0c771f11888881b516a8d1a9cdc535d063fe26d065e</div>
     </div>
   </div>
 }
