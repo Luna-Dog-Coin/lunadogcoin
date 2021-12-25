@@ -1,4 +1,3 @@
 # How to run
 
-1. `npm install`
-2. `npm start`
+1. `sh deploy.sh`
