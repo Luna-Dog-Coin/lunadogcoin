@@ -45,7 +45,15 @@ module.exports = {
     {
       desc: "Marketing, SEO, and Brand Expansion",
       status: "no"
-    }
+    },
+    {
+      desc: "Addition of LunaDog as currency on Ergo Auction House",
+      status: "no"
+    },
+    {
+      desc: "Addition of LunaDog as collateral on ErgoLend",
+      status: "no"
+    },
   ],
   lunaBlockchainInfoUrl: "https://api.ergoplatform.com/api/v1/boxes/unspent/byTokenId/5a34d53ca483924b9a6aa0c771f11888881b516a8d1a9cdc535d063fe26d065e",
   lunaLpInfoUrl: "https://api.ergoplatform.com/api/v1/boxes/unspent/byTokenId/9db3450951c37a5875ed493f19bfe03364fa4846cde63b1fee05dfaf59c837b1"
